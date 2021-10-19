@@ -1,0 +1,84 @@
+*{
+	 box-sizing: border-box;
+	 font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+.box{
+margin: 10px;
+border: 1px solid black;
+position: relative;
+float: left;
+background-color: grey;
+padding: 0px;
+
+
+}
+.main{
+	width: 100%;
+}
+#a{
+	background-color: red;
+	width: 33%;
+	border-bottom: 1px solid black;
+    border-left: 1px solid black;
+	position: relative;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+#b{
+	background-color: green;
+	width: 33%;
+	border-bottom: 1px solid black;
+    border-left: 1px solid black;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+#c{
+	background-color: blue;
+	width: 33%;
+	border-bottom: 1px solid black;
+    border-left: 1px solid black;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+p{
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	clear: right;
+}
+
+
+@media(min-width: 992px){
+	.box{
+		width: 30%;
+	}
+
+}
+@media(min-width:768px ) and (max-width: 991px){
+	.box{
+		width: 47%;
+	}
+	#sushi{
+		width: 96%;
+	}
+
+}
+@media(max-width: 767px){
+	.box{
+		width: 96%;
+	}
+
+}
+
